@@ -1,0 +1,102 @@
+main.container form{
+    background: var(--white);
+    border-radius: 6px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0,.1);
+    padding: 20px;
+    width: 300px;
+    padding-top: 160px;
+}
+
+main.container form .inputBox{
+    margin-top: 20px;
+}
+
+main.container form .inputBox span{
+    display: block;
+    color: var(--veryDarkViolet);
+    padding-bottom: 5px;
+}
+
+main.container form .inputBox input,
+main.container form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0,.3);
+    color: var(--darkGrayishViolet);
+    background-color: var(--white);
+}
+
+main.container form .inputBox input:hover{
+    border: 2px solid hsl(278, 94%, 30%);
+    
+}
+
+/* WHEN INPUT WRONG */
+.inputError{
+    border: 2px solid var(--redError)
+}
+
+main.container form .flexbox{
+    display: flex;
+    gap: 15px;
+}
+
+main.container form .flexbox .inputBox{
+    flex: 1 1 150px;
+}
+
+main.container form .submit-btn,
+.thanksContainer button{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--veryDarkViolet);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s linear;
+    break-before: 5px;
+}
+
+main.container form .submit-btn:hover,
+.thanksContainer button:hover{
+    opacity: .8;
+    letter-spacing: 2px;
+}
+
+.thanksContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border-radius: 6px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0,.1);
+    padding: 20px;
+    width: 300px;
+    padding-top: 160px;
+
+}
+ 
+.thanksContainer span.title{
+    color: var(--veryDarkViolet);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ 
+.thanksContainer span{
+    color: var(--darkGrayishViolet);
+    text-transform: none;
+}
+
+
+@media screen and (min-width: 1024px){
+    main.container form,
+    .thanksContainer{
+        width: 600px;
+        margin-left: 300px;
+    }
+}
