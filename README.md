@@ -46,8 +46,8 @@ show a error message telling the user to fill the fields correctly.
 
 ### Links
 
-- Github URL: [Github solution creditcard card](https://your-solution-url.com)
-- Live Vercel URL: [Vercel live site credit card preview](https://your-live-site-url.com)
+- Github URL: [Github solution creditcard card](https://github.com/nettopasquale/creditCardChallenge)
+- Live Vercel URL: [Vercel live site credit card preview](https://creditcardchallenge.vercel.app/)
 
 ## My process
 
